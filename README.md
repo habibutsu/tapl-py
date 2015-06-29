@@ -6,16 +6,27 @@
 
 Requirements
 
-* [Python 3](https://www.python.org/) 
+* [Python 3](https://www.python.org/)
 * [PLY (Python Lex-Yacc)](http://www.dabeaz.com/ply/)
 
-## What implemented ##
+## Content ##
 
 * **untyped** - Untyped System
 * **simplebool** - Simple Types
 * **fullsimple** (partially) - Simple Types / Simple Extensions
 * **rcdsubbot** - Subtyping
+* **equirec** (not implemented) - Recursive Types
 * **recon** - Type Reconstruction (or Type Inference)
+* **fullpoly** (partially) - Universal / Existential Types
+* **fullsub** (not implemented) -  Bounded Quantification
+* **fullomega** (not implemented) - Higher-OrderSystems
+
+## TODO ##
+
+* Complete partial implementations
+* Unit tests
+* Reduce dublication, unify code base
+* Maybe it would be better to use PyBison
 
 ## Links ##
 
